@@ -1,0 +1,321 @@
+
+             /* all */
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    overflow: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+             /* all */
+
+
+.header .slider{
+    background-image: url(img/anony.jbg.jpg);
+background-size: cover;
+background-position: center;
+    height: 550px;
+}
+.header .slider .intro{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+.header .slider .intro h2{
+    font-size: 50px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 5px;
+}
+.header .slider .intro button{
+background: none;
+    color: white;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar{
+    background-color: rgb(51, 45, 94);
+    color: white;
+}
+.header .navbar h2{
+    float: left;
+    margin-top: 10px;
+}
+.header .navbar ul{
+    list-style-type: none;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 15px;
+    margin-left: 15px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.features .feat{
+float: left;
+width: 33.33333%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.features .feat h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.features .feat p{
+    line-height: 1.3;
+text-align: justify;
+    margin: 0 28px;
+}
+
+
+.about_me{
+    background-color: rgb(238, 238, 238);
+}
+.about_me .image{
+float: left;
+width: 40%;
+}
+.about_me .info{
+float: left;
+width: 60%;
+}
+.about_me .info h2{
+    margin: 10px 0 20px 0;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.about_me .info p{
+text-align: justify;
+    padding-left: 55px;
+    padding-top: 5px;
+    line-height: 1.3;
+}
+.about_me .image img{
+    width: 100%;
+}
+
+
+.my_skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.my_skills .skills,.my_skills .progress{
+width: 50%;
+float: left;
+}
+.my_skills .skills h2{
+    margin: 25px 0 20px 40px;
+}
+.my_skills .skills p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5;
+}
+.my_skills .skills button{
+    background: none;
+    color:  rgb(51, 45, 94);
+    border: 3px solid  rgb(51, 45, 94);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px 0 20px 40px;
+}
+
+
+.my_skills .progress .technique {
+    margin-left: 40px;
+}
+.my_skills .progress .technique h2{
+    margin-bottom: 10px;
+}
+.my_skills .progress .technique div{
+background-color:rgb(238, 238, 238);
+height: 25px;
+}
+.my_skills .progress .technique div span{
+    background-color: rgb(51, 45, 94);
+height: 25px;
+width: 65%;
+display: block;
+}
+.my_skills .progress{
+    margin-top: 25px;
+}
+
+
+
+.resume{
+    background-color: rgb(238, 238, 238);
+    padding-top: 23px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 265px;
+    overflow-y: hidden;
+}
+.resume h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.resume p{
+    line-height: 1.1;
+}
+.resume .two{
+    padding-top: 10px;
+}
+.resume button{
+    margin-top: 40px;
+    background: none;
+    color:  rgb(51, 45, 94);
+    border: 3px solid  rgb(51, 45, 94);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.my_education{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.my_education .main{
+float: left;
+width: 50%;
+}
+.my_education .main h2{
+    margin: 25px 0 20px 40px;
+}
+.my_education .main p{
+    margin: 0 0 10px 40px;
+    line-height: 1.4;
+}
+.my_education .exp{
+float: left;
+width: 45%;
+margin-left: 5%;
+margin-top: 71px;
+}
+.my_education .exp span{
+    display: block;
+    margin-bottom: 8px;
+}
+.my_education .exp h3{
+    margin-bottom: 15px;
+}
+.my_education .exp span:last-of-type{
+    background-color: rgb(51, 45, 94);
+    width: 80px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+.my_education .exp hr{
+    margin: 25px;
+}
+.my_education .exp p{
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+
+.testimonails{
+    background-color: rgb(233, 233, 233);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonails h3{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.testimonails p{
+    line-height: 1.4;
+}
+
+
+
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.portfolio .our_work div{
+float: left;
+width: 33%;
+    margin-bottom: 25px;
+}
+.portfolio h2{
+    font-size: 30px;
+}
+.portfolio h2 p{
+line-height: 1.4;
+}
+.portfolio p{
+    margin: 20px 0 20px 0;
+}
+
+
+
+.contact{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    /* height: 500px; */
+}
+.contact .info{
+    width: 50%;
+    float: left;
+}
+.contact .info h2{
+    margin: 20px O 10px 40px;
+}
+.contact .info p{
+    margin: 20px O 10px 40px;
+    line-height: 1.4;
+}
+.contact .form{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.contact .form label{
+    display: block;
+    margin-bottom: 10px;
+}
+.contact .form input{
+    width: 70%;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact .form button{
+    display: block;
+}
+
+
+
+.footer{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
